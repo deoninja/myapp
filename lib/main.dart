@@ -84,7 +84,7 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title),
+        title: Text('Flutter Demo Home Page'),
       ),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
@@ -109,7 +109,7 @@ class _MyHomePageState extends State<MyHomePage> {
               'You have pushed the button this many times:',
             ),
             Text(
-              '$_counter',
+              '$_counter times',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
           ],
